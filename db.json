@@ -1,0 +1,75 @@
+{
+    "posts":[
+        {
+          "id": 1,
+          "title": "Introduction to JSON",
+          "body": "JSON (JavaScript Object Notation) is a lightweight data-interchange format...",
+          "author": "John Doe",
+          "date": "2024-04-28"
+        },
+        {
+          "id": 2,
+          "title": "Working with APIs",
+          "body": "Application Programming Interfaces (APIs) allow different software applications...",
+          "author": "Jane Smith",
+          "date": "2024-04-29"
+        },
+        {
+          "id": 3,
+          "title": "Frontend Frameworks Comparison",
+          "body": "There are several frontend frameworks available for web development...",
+          "author": "Alice Johnson",
+          "date": "2024-04-30"
+        },
+        {
+          "id": 4,
+          "title": "Diving into React.js",
+          "body": "React.js is a JavaScript library for building user interfaces...",
+          "author": "Bob Anderson",
+          "date": "2024-04-30"
+        },
+        {
+          "id": 5,
+          "title": "Python Tips and Tricks",
+          "body": "Python is a versatile programming language with many useful features...",
+          "author": "Charlie Brown",
+          "date": "2024-04-29"
+        },
+        {
+          "id": 6,
+          "title": "Understanding Data Structures",
+          "body": "Data structures are fundamental concepts in computer science...",
+          "author": "David Lee",
+          "date": "2024-04-28"
+        },
+        {
+          "id": 7,
+          "title": "Machine Learning Basics",
+          "body": "Machine learning is a subset of artificial intelligence...",
+          "author": "Emily Davis",
+          "date": "2024-04-29"
+        },
+        {
+          "id": 8,
+          "title": "Getting Started with Node.js",
+          "body": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine...",
+          "author": "Frank White",
+          "date": "2024-04-30"
+        },
+        {
+          "id": 9,
+          "title": "Introduction to Docker",
+          "body": "Docker is a platform for developing, shipping, and running applications...",
+          "author": "Grace Martinez",
+          "date": "2024-04-28"
+        },
+        {
+          "id": 10,
+          "title": "Web Security Best Practices",
+          "body": "Web security is crucial for protecting user data and preventing attacks...",
+          "author": "Henry Wilson",
+          "date": "2024-04-30"
+        }
+      ]
+      
+}
