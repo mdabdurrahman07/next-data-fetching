@@ -1,7 +1,7 @@
 const Posts = async () => {
-  const response = await fetch("http://localhost:5000/posts");
+  const response = await fetch("http://localhost:5000/posts", { next: { revalidate: 1 } })
   const post = await response.json();
-  console.log(post);
+  // console.log(post);
   return (
     <div>
       <h2 className="text-2xl text-green-500 text-center my-2">
