@@ -1,5 +1,7 @@
+import Link from "next/link";
+
 const Posts = async () => {
-  const response = await fetch("http://localhost:5000/posts", { next: { revalidate: 1 } })
+  const response = await fetch("http://localhost:5000/posts", {cache:"no-store"})
   const post = await response.json();
   // console.log(post);
   return (
@@ -18,7 +20,9 @@ const Posts = async () => {
                 <p>{data?.author}</p>
                 <p>{data?.date}</p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">See more</button>
+                 <Link href={`posts/${data.id}`}> 
+                 <button className="btn btn-primary">See more</button>
+                 </Link>
                 </div>
               </div>
             </div>
